@@ -11,7 +11,7 @@ export function BentoGrid() {
         <div className="sm:col-span-2 sm:row-span-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 border border-border overflow-hidden group cursor-pointer transition-all hover:border-neutral-300 dark:hover:border-neutral-600">
           <div className="h-full w-full flex items-end p-6">
             <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <p className="text-sm font-medium">Project One</p>
+              <p className="text-sm font-medium">Crosby: POS Tool Launch</p>
               <p className="text-xs text-muted-foreground">UX Design</p>
             </div>
           </div>
@@ -21,7 +21,7 @@ export function BentoGrid() {
         <div className="rounded-lg bg-neutral-200 dark:bg-neutral-700 border border-border overflow-hidden group cursor-pointer transition-all hover:border-neutral-300 dark:hover:border-neutral-600">
           <div className="h-full w-full flex items-end p-4">
             <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <p className="text-sm font-medium">Project Two</p>
+              <p className="text-sm font-medium">Norman & Co: Scout Product Launch</p>
               <p className="text-xs text-muted-foreground">Brand</p>
             </div>
           </div>
@@ -31,7 +31,7 @@ export function BentoGrid() {
         <div className="rounded-lg bg-neutral-300 dark:bg-neutral-600 border border-border overflow-hidden group cursor-pointer transition-all hover:border-neutral-300 dark:hover:border-neutral-500">
           <div className="h-full w-full flex items-end p-4">
             <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <p className="text-sm font-medium">Project Three</p>
+              <p className="text-sm font-medium">Gardona: Online Store Redesign</p>
               <p className="text-xs text-muted-foreground">Visual Design</p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export function BentoGrid() {
         <div className="sm:row-span-2 rounded-lg bg-neutral-400 dark:bg-neutral-500 border border-border overflow-hidden group cursor-pointer transition-all hover:border-neutral-300 dark:hover:border-neutral-400">
           <div className="h-full w-full flex items-end p-4">
             <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <p className="text-sm font-medium text-white">Project Four</p>
+              <p className="text-sm font-medium text-white">Carmine: Skycast App Launch</p>
               <p className="text-xs text-white/70">Product</p>
             </div>
           </div>
@@ -51,7 +51,7 @@ export function BentoGrid() {
         <div className="sm:col-span-2 rounded-lg bg-neutral-200 dark:bg-neutral-700 border border-border overflow-hidden group cursor-pointer transition-all hover:border-neutral-300 dark:hover:border-neutral-600">
           <div className="h-full w-full flex items-end p-6">
             <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <p className="text-sm font-medium">Project Five</p>
+              <p className="text-sm font-medium">Mobile App Redesign</p>
               <p className="text-xs text-muted-foreground">Mobile App</p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export function BentoGrid() {
         <div className="rounded-lg bg-neutral-100 dark:bg-neutral-800 border border-border overflow-hidden group cursor-pointer transition-all hover:border-neutral-300 dark:hover:border-neutral-600">
           <div className="h-full w-full flex items-end p-4">
             <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-              <p className="text-sm font-medium">Project Six</p>
+              <p className="text-sm font-medium">Portfolio Website</p>
               <p className="text-xs text-muted-foreground">Web</p>
             </div>
           </div>

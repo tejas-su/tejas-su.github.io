@@ -22,6 +22,16 @@ const projects = [
     project: "Skycast App Launch",
     href: "#",
   },
+  {
+    company: "Freelance",
+    project: "Mobile App Redesign",
+    href: "#",
+  },
+  {
+    company: "Personal",
+    project: "Portfolio Website",
+    href: "#",
+  },
 ]
 
 export function Experience() {

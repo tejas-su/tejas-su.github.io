@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Linkedin, Twitter, Dribbble, Instagram, Mail } from "lucide-react"
+import { Linkedin, Github, Dribbble, Instagram, Mail } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Header() {
@@ -25,13 +25,13 @@ export function Header() {
             <Linkedin className="h-4 w-4" />
           </Link>
           <Link
-            href="https://twitter.com"
+            href="https://github.com/tejas-su"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-8 w-8 items-center justify-center text-muted-foreground transition-colors hover:text-foreground"
-            aria-label="Twitter"
+            aria-label="GitHub"
           >
-            <Twitter className="h-4 w-4" />
+            <Github className="h-4 w-4" />
           </Link>
           <Link
             href="https://dribbble.com"
@@ -104,14 +104,14 @@ export function Header() {
             <span className="text-sm">LinkedIn</span>
           </Link>
           <Link
-            href="https://twitter.com"
+            href="https://github.com/tejas-su"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 text-muted-foreground transition-colors hover:text-foreground"
             onClick={() => setIsOpen(false)}
           >
-            <Twitter className="h-4 w-4" />
-            <span className="text-sm">Twitter</span>
+            <Github className="h-4 w-4" />
+            <span className="text-sm">GitHub</span>
           </Link>
           <Link
             href="https://dribbble.com"

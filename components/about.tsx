@@ -7,7 +7,7 @@ export function About() {
       <div className="grid gap-16 lg:grid-cols-[1fr_auto] lg:items-start">
         <div>
           <h1 className="text-6xl font-medium tracking-tight md:text-7xl lg:text-8xl xl:text-9xl text-balance">
-            S U Tejas
+            S U TEJAS
           </h1>
           <p className="mt-4 text-lg font-medium uppercase tracking-widest text-muted-foreground md:text-xl">
             Assosiate Software Engineer (Flutter)

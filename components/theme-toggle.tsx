@@ -6,7 +6,7 @@ import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme()
+  const { theme, setTheme, resolvedTheme } = useTheme()
   const [mounted, setMounted] = React.useState(false)
 
   React.useEffect(() => {
@@ -21,7 +21,7 @@ export function ThemeToggle() {
       Math.max(y, window.innerHeight - y)
     )
 
-    const isDark = theme === "dark"
+    const isDark = resolvedTheme === "dark" || theme === "dark"
     const newTheme = isDark ? "light" : "dark"
 
     // Check if the browser supports View Transitions API
