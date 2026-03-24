@@ -124,6 +124,17 @@
   }
 }
 
+/* Hide default cursor on desktop for Custom Cursor experience */
+@media (hover: hover) and (pointer: fine) {
+  body, 
+  a, 
+  button, 
+  [role="button"],
+  .cursor-pointer {
+    cursor: none !important;
+  }
+}
+
 /* View Transition for theme toggle bubble effect */
 ::view-transition-old(root),
 ::view-transition-new(root) {
