@@ -9,12 +9,12 @@ export function About() {
           <h1 className="text-6xl font-medium tracking-tight md:text-7xl lg:text-8xl xl:text-9xl text-balance">
             S U TEJAS
           </h1>
-          <p className="mt-4 text-lg font-medium uppercase tracking-widest text-muted-foreground md:text-xl">
+          <p className="mt-4 text-lg tracking-widest text-muted-foreground md:text-xl">
             Assosiate Software Engineer (Flutter)
           </p>
           <p className="mt-8 text-base leading-relaxed text-muted-foreground md:text-lg max-w-xl">
             Currently crafting experiences at{" "}
-            <span className="text-foreground font-medium">Melento</span> (2021 – Present)
+            <span className="text-foreground font-medium">Melento</span> (2021 - Present)
           </p>
           <div className="mt-16 border-t border-border pt-8">
             <p className="text-lg leading-relaxed text-muted-foreground md:text-xl">
