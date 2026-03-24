@@ -11,7 +11,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm px-6 py-6 md:px-12 lg:px-24">
       <div className="flex items-center justify-between">
-        <div className="text-base font-bold tracking-tight underline underline-offset-4 decoration-2">S U TEJAS</div>
+        <div className="text-2xl md:text-lg font-bold tracking-tight underline underline-offset-4 decoration-2">S U TEJAS</div>
 
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-4 md:flex">
