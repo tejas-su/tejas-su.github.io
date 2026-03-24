@@ -32,7 +32,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="w-full bg-background border-t border-border mt-24">
+    <footer className="w-full bg-transparent border-t border-border mt-24">
       <div className="px-6 py-16 md:px-12 md:py-24 lg:px-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left Column: Name, Title, and Avatar */}
@@ -44,13 +44,14 @@ export function Footer() {
               </p>
             </div>
 
-            <div className="relative w-48 h-48 md:w-64 md:h-64 flex items-center justify-center">
+            <div className="max-w-[160px] md:max-w-[256px]">
               <Image
-                src="/footer-avatar.png"
-                alt="Avatar"
+                src="/footer.png"
+                alt="Footer Branding"
                 width={256}
                 height={256}
-                className="object-contain"
+                className="w-full h-auto object-contain"
+                priority
               />
             </div>
           </div>
