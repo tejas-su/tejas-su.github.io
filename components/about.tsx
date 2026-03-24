@@ -65,12 +65,18 @@ export function About() {
           <ArrowUpRight className="h-5 w-5 opacity-70 group-hover:opacity-100 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
         </Link>
 
-        <div className="aspect-[3/4] w-full max-w-xs rounded-lg border border-border overflow-hidden bg-neutral-100 dark:bg-neutral-800 mx-auto">
+        <div 
+          style={{ 
+            transform: `scale(${1 + scrollProgress * 0.15})`,
+            transition: 'transform 0.1s linear'
+          }}
+          className="aspect-[4/5] w-full max-w-xs rounded-lg border border-border overflow-hidden bg-neutral-100 dark:bg-neutral-800 mx-auto"
+        >
           <Image
             src="/tejas.png"
-            alt="S U Tejas"
-            width={600}
-            height={800}
+            alt="S U Tejas - Associate Software Engineer"
+            width={800}
+            height={1000}
             className="object-cover w-full h-full"
             priority
           />
