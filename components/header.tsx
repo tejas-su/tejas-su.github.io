@@ -11,8 +11,8 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm px-6 py-6 md:px-12 lg:px-24">
       <div className="flex items-center justify-between">
-        <div className="text-sm font-medium tracking-tight">S U Tejas</div>
-        
+        <div className="text-sm font-medium tracking-tight">S U TEJAS</div>
+
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-4 md:flex">
           <Link
@@ -69,28 +69,24 @@ export function Header() {
           aria-expanded={isOpen}
         >
           <span
-            className={`h-0.5 w-5 bg-foreground transition-all duration-300 ease-in-out ${
-              isOpen ? "translate-y-2 rotate-45" : ""
-            }`}
+            className={`h-0.5 w-5 bg-foreground transition-all duration-300 ease-in-out ${isOpen ? "translate-y-2 rotate-45" : ""
+              }`}
           />
           <span
-            className={`h-0.5 w-5 bg-foreground transition-all duration-300 ease-in-out ${
-              isOpen ? "opacity-0" : ""
-            }`}
+            className={`h-0.5 w-5 bg-foreground transition-all duration-300 ease-in-out ${isOpen ? "opacity-0" : ""
+              }`}
           />
           <span
-            className={`h-0.5 w-5 bg-foreground transition-all duration-300 ease-in-out ${
-              isOpen ? "-translate-y-2 -rotate-45" : ""
-            }`}
+            className={`h-0.5 w-5 bg-foreground transition-all duration-300 ease-in-out ${isOpen ? "-translate-y-2 -rotate-45" : ""
+              }`}
           />
         </button>
       </div>
 
       {/* Mobile Menu */}
       <div
-        className={`overflow-hidden transition-all duration-300 ease-in-out md:hidden ${
-          isOpen ? "mt-6 max-h-64 opacity-100" : "max-h-0 opacity-0"
-        }`}
+        className={`overflow-hidden transition-all duration-300 ease-in-out md:hidden ${isOpen ? "mt-6 max-h-64 opacity-100" : "max-h-0 opacity-0"
+          }`}
       >
         <nav className="flex flex-col gap-4 border-t border-border pt-6">
           <Link
