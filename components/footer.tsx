@@ -16,19 +16,16 @@ export function Footer() {
   }
 
   const projects = [
-    { name: "Crosby: POS Tool Launch", category: "UX Design" },
-    { name: "Norman & Co: Scout Product Launch", category: "Brand" },
-    { name: "Gardona: Online Store Redesign", category: "Visual Design" },
-    { name: "Carmine: Skycast App Launch", category: "Product" },
-    { name: "Mobile App Redesign", category: "Mobile App" },
-    { name: "Portfolio Website", category: "Web" },
+    { name: "Cardamom Care", category: "AI & Agriculture", href: "https://github.com/tejas-su/cardamom_care/" },
+    { name: "Scribble", category: "Product Development", href: "https://play.google.com/store/apps/details?id=com.widgetsandco.scribble" },
+    { name: "Shrine", category: "Fullstack App", href: "https://github.com/tejas-su/shrine_app" },
   ]
 
   const socials = [
     { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
     { name: "GitHub", icon: Github, href: "https://github.com/tejas-su" },
-    { name: "Dribbble", icon: Dribbble, href: "https://dribbble.com" },
-    { name: "Instagram", icon: Instagram, href: "https://instagram.com" },
+    { name: "Dribbble", icon: Dribbble, href: "https://dribbble.com/tejas-s-u" },
+    { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/tejas.s.u_/" },
   ]
 
   return (
@@ -40,7 +37,7 @@ export function Footer() {
             <div>
               <h2 className="text-xl font-bold uppercase tracking-tighter">S U Tejas</h2>
               <p className="text-sm text-muted-foreground mt-2 max-w-xs leading-relaxed">
-                Associate Software Engineer, currently crafting experiences at Melento.
+                Associate Software Engineer, currently crafting mobile experiences at <span className="text-foreground font-medium">Melento</span>.
               </p>
             </div>
 
@@ -78,7 +75,7 @@ export function Footer() {
                 <ul className="space-y-2">
                   {projects.map((project) => (
                     <li key={project.name}>
-                      <Link href="#" className="text-sm font-medium hover:text-muted-foreground transition-colors">
+                      <Link href={project.href} target="_blank" rel="noopener noreferrer" className="text-sm font-medium hover:text-muted-foreground transition-colors line-clamp-1">
                         {project.name}
                       </Link>
                     </li>
@@ -112,8 +109,8 @@ export function Footer() {
       {/* Bottom Strip */}
       <div className="w-full bg-neutral-900 border-t border-white/5 py-4 px-6 md:px-12 lg:px-24">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] md:text-xs font-medium uppercase tracking-widest text-white/40">
-          <p>Designed & Built from the desk of <span className="text-white">Widgets & Co</span></p>
-          <p>Widgets & Co – 2026©</p>
+          <p>Designed & Built from the desk of <span className="text-white">Widgets & Co.</span></p>
+          <p>Widgets & Co. – 2026©</p>
         </div>
       </div>
     </footer>

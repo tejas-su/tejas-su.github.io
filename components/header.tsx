@@ -34,7 +34,7 @@ export function Header() {
             <Github className="h-4 w-4" />
           </Link>
           <Link
-            href="https://dribbble.com"
+            href="https://dribbble.com/tejas-s-u"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-8 w-8 items-center justify-center text-muted-foreground transition-colors hover:text-foreground"
@@ -43,7 +43,7 @@ export function Header() {
             <Dribbble className="h-4 w-4" />
           </Link>
           <Link
-            href="https://instagram.com"
+            href="https://www.instagram.com/tejas.s.u_/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-8 w-8 items-center justify-center text-muted-foreground transition-colors hover:text-foreground"
@@ -110,7 +110,7 @@ export function Header() {
             <span className="text-sm">GitHub</span>
           </Link>
           <Link
-            href="https://dribbble.com"
+            href="https://dribbble.com/tejas-s-u"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 text-muted-foreground transition-colors hover:text-foreground"
@@ -120,7 +120,7 @@ export function Header() {
             <span className="text-sm">Dribbble</span>
           </Link>
           <Link
-            href="https://instagram.com"
+            href="https://www.instagram.com/tejas.s.u_/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 text-muted-foreground transition-colors hover:text-foreground"
