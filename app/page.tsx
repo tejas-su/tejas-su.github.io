@@ -9,6 +9,29 @@ import { Footer } from "@/components/footer"
 export default function Home() {
   return (
     <main className="min-h-screen bg-transparent">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "S U Tejas",
+            url: "https://tejas-su.github.io",
+            image: "https://tejas-su.github.io/icon.svg",
+            sameAs: [
+              "https://linkedin.com",
+              "https://github.com/tejas-su",
+              "https://dribbble.com/tejas-s-u",
+              "https://www.instagram.com/tejas.s.u_/"
+            ],
+            jobTitle: "Associate Software Engineer",
+            worksFor: {
+              "@type": "Organization",
+              name: "Melento"
+            }
+          })
+        }}
+      />
       <Header />
       <About />
       <BentoGrid />
