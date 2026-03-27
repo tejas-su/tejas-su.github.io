@@ -3,6 +3,7 @@ import { About } from "@/components/about"
 import { BentoGrid } from "@/components/bento-grid"
 import { Experience } from "@/components/experience"
 import { Projects } from "@/components/projects"
+import { Ventures } from "@/components/ventures"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <BentoGrid />
       <Experience />
       <Projects />
+      <Ventures />
       <Footer />
     </main>
   )
