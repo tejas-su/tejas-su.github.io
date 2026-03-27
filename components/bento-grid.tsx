@@ -97,15 +97,15 @@ export function BentoGrid() {
                 </div>
               </div>
             )}
-            <div className="absolute inset-0 flex items-end p-4 md:p-6 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="absolute inset-0 flex items-end p-4 md:p-6 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div>
-                <p className={`text-sm font-semibold ${project.image ? "text-white" : project.textColor}`}>{project.title}</p>
-                <p className={`text-xs ${project.image ? "text-white/70" : project.subColor}`}>{project.category}</p>
+                <p className="text-sm font-semibold text-white drop-shadow-md">{project.title}</p>
+                <p className="text-xs text-white/80 drop-shadow-sm">{project.category}</p>
               </div>
             </div>
             <div className="absolute inset-0 flex items-end p-4 md:p-6 group-hover:opacity-0 transition-opacity duration-300">
-              <div className="opacity-30">
-                <p className={`text-xs font-bold uppercase tracking-widest ${project.textColor}`}>{project.category}</p>
+              <div className="opacity-60">
+                <p className="text-xs font-bold uppercase tracking-widest text-neutral-900">{project.category}</p>
               </div>
             </div>
           </Link>
