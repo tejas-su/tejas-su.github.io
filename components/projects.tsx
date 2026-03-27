@@ -8,12 +8,12 @@ const projects = [
   {
     title: "Cardamom Care",
     subtitle: "Personal/Academic Project",
-    period: "January 2025 - December 2025",
+    period: "November 2024 - May 2025",
     link: "https://github.com/tejas-su/cardamom_care/",
     linkType: "github",
     details: [
       "Built an end-to-end Flutter application using **BLoC** to manage complex, state-heavy flows for agricultural decision support.",
-      "Integrated **on-device TensorFlow models** for leaf disease detection, enabling real-time inference without server dependency.",
+      "Integrated **on-device TensorFlow Lite models** for leaf disease detection, enabling real-time inference without server dependency.",
       "Designed and implemented a **price prediction pipeline** using agentic networks with **Gemini**, coordinating multiple model steps for temporal forecasting.",
       "Developed and consumed **RESTful APIs** to handle data exchange between ML components and the frontend.",
       "Implemented real-time disease detection workflows and **interactive visualizations** to translate model outputs into actionable insights for farmers.",
@@ -48,7 +48,7 @@ const projects = [
   {
     title: "Krishi Yantra Mela Website",
     subtitle: "Bootstrap Studio | HTML | CSS | Git",
-    period: "2024",
+    period: "2023",
     link: "https://krishiyantramela.github.io/index.html",
     linkType: "globe",
     details: [
@@ -70,15 +70,15 @@ export function Projects() {
         <h2 className="text-sm font-medium uppercase tracking-widest text-muted-foreground mb-12">
           Projects
         </h2>
-        
+
         <Accordion type="single" collapsible className="w-full">
           {projects.map((project, index) => (
-            <AccordionItem 
-              key={index} 
-              value={`project-${index}`} 
+            <AccordionItem
+              key={index}
+              value={`project-${index}`}
               className="border-b border-border/50 py-2 group overflow-hidden hover-bounce"
             >
-              <AccordionTrigger 
+              <AccordionTrigger
                 className="hover:no-underline py-8 transition-all duration-300 data-[state=open]:bg-muted/30 [&>svg]:hidden"
               >
                 <div className="flex flex-col gap-4 md:flex-row md:items-baseline md:justify-between w-full text-left">
@@ -96,9 +96,9 @@ export function Projects() {
                       {project.period}
                     </span>
                     {project.link && (
-                      <Link 
-                        href={project.link} 
-                        target="_blank" 
+                      <Link
+                        href={project.link}
+                        target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
                         className="p-2 hover:bg-primary/10 rounded-full transition-colors"
@@ -118,10 +118,10 @@ export function Projects() {
                       <li key={idx} className="text-base md:text-lg text-muted-foreground leading-relaxed flex items-start gap-4 group/item">
                         <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary/20 group-hover/item:bg-primary transition-colors duration-300" />
                         <span className="grow">
-                          {parts.map((part, i) => 
-                            part.startsWith('**') && part.endsWith('**') 
-                            ? <strong key={i} className="text-foreground font-semibold">{part.slice(2, -2)}</strong> 
-                            : part
+                          {parts.map((part, i) =>
+                            part.startsWith('**') && part.endsWith('**')
+                              ? <strong key={i} className="text-foreground font-semibold">{part.slice(2, -2)}</strong>
+                              : part
                           )}
                         </span>
                       </li>
