@@ -16,7 +16,7 @@ export function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-4 md:flex">
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/s-u-tejas/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-8 w-8 items-center justify-center text-muted-foreground transition-colors hover:text-foreground"
@@ -137,9 +137,9 @@ export function Header() {
             <Mail className="h-4 w-4" />
             <span className="text-sm">Email</span>
           </Link>
-          <ThemeToggle 
-            label="Theme" 
-            className="flex w-full items-center justify-start gap-4 px-0 py-2 h-auto text-sm text-muted-foreground transition-colors hover:text-foreground hover:bg-transparent" 
+          <ThemeToggle
+            label="Theme"
+            className="flex w-full items-center justify-start gap-4 px-0 py-2 h-auto text-sm text-muted-foreground transition-colors hover:text-foreground hover:bg-transparent"
           />
         </nav>
       </div>
