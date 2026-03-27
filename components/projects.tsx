@@ -44,6 +44,22 @@ const projects = [
       "Integrated authentication, CRUD workflows, and real-time updates while maintaining clear separation between UI and data layers.",
       "Focused on reducing operational complexity by leveraging Supabase’s tooling instead of custom backend overhead.",
     ]
+  },
+  {
+    title: "Krishi Yantra Mela Website",
+    subtitle: "Bootstrap Studio | HTML | CSS | Git",
+    period: "2024",
+    link: "https://krishiyantramela.github.io/index.html",
+    linkType: "globe",
+    details: [
+      "Developed and deployed a **static event website** to present information about Krishi Yantra Mela, focusing on clarity, accessibility, and structured content delivery.",
+      "Built the UI using **Bootstrap Studio**, leveraging responsive grid systems and prebuilt components to ensure consistent layout across devices.",
+      "Designed and implemented **responsive sections** for event overview, highlights, and navigation, optimizing usability for both desktop and mobile users.",
+      "Managed version control using **Git**, maintaining clean commit history and iterative improvements during development.",
+      "Hosted the project using **GitHub Pages**, enabling seamless deployment of static assets directly from the repository.",
+      "Ensured maintainability by organizing assets and components for easy updates and future scalability.",
+      "Focused on fast load times and minimal dependencies by keeping the project lightweight and static.",
+    ]
   }
 ]
 

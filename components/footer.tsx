@@ -19,6 +19,7 @@ export function Footer() {
     { name: "Cardamom Care", category: "AI & Agriculture", href: "https://github.com/tejas-su/cardamom_care/" },
     { name: "Scribble", category: "Product Development", href: "https://play.google.com/store/apps/details?id=com.widgetsandco.scribble" },
     { name: "Shrine", category: "Fullstack App", href: "https://github.com/tejas-su/shrine_app" },
+    { name: "Krishi Yantra Mela", category: "Static Website", href: "https://krishiyantramela.github.io/index.html" },
   ]
 
   const socials = [
